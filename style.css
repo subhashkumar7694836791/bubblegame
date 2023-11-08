@@ -1,0 +1,99 @@
+*
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+html,body
+{
+height:100%;
+width:100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+.panel{
+    position: relative;
+
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.ptop{
+    border-bottom: 1px solid black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+    background-color: rgb(51, 198, 51);
+}
+.elem{
+    width: 30%;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    /* background-color: #fff; */
+}
+h2{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 22px;
+}
+.box{
+    padding: 10px 20px;
+    font-weight: 800;
+    background-color: rgb(53, 44, 28);
+
+}
+.pbtm{
+    padding: 20px;
+    height: calc(100% - 70px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.winner{
+    color: #fff;
+     background-image: url(https://gifdb.com/images/high/you-re-a-winner-trophy-h5be0iii4oc9f9tj.gif);
+     background-position: center;
+     background-size: 100% 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: rgb(63, 147, 63);
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(242, 153, 98);
+}
